@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>07400 Project Page</title>
+
+</head>
+
+<body>
+  <h1>Fault model for HTTP/3 and related network protocols</h1>
+  <h2>07-400: Spring 2022</h2>
+  <h3>Shannon Ding</h3>
+  <p>The HTTP protocol is used in the World Wide Web which has applications in online banking, sensitive data transfer, and communication in general. The next iteration of the protocol is HTTP/3, which will improve performance and privacy. HTTP/3 has been an Internet Draft since 2018, which means there is a paper describing how to implement the protocol by building on HTTP/2. It recently (in August 2021) entered the Request for Comments phase where the protocol is more rigorously defined. Already, many libraries (Python, Node) and network infrastructure services (Cloudflare) have implemented support for HTTP/3. Since so many types of devices use HTTP, there are many implementations of HTTP/3 being put into use. Thus we must ensure their correctness and safety before they are deployed and interconnected on such a widespread level.</p>
+  <p>The main gap in the field we hope to resolve is the lack of thorough analysis over a wide range of implementations. There are more papers about how to implement and protocol performance than correctness. Furthermore, while most papers test the protocol against common inputs, we will be targeting the protocol's response toward unexpected inputs.</p>
+  <p>We will begin by first looking at TCP, an established and widely studied protocol. As an exercise, I'll start by defining an abstract state machine for TCP using a to-be-decided descriptive language. Afterward, we'll run the abstract state machine through a set of scenarios to catch any contradictions or errors. Finally, we'll use the abstract state machine definition to generate a set of tests to run on actual implementations of TCP.</p>
+  <p>To further split this task up, we will be analyzing components of TCP at a time before analyzing the protocol as a whole to see how different components act.</p>
+  <p>We will repeat this process for HTTP/3, although it will take longer to formally define an abstract state machine as there is less literature on the subject. For HTTP/3 in particular, we will attempt to generate a set of representative unexpected inputs and test for an HTTP/3 implementation crashing.</p>
+  <p>The primary challenge is defining the abstract state machine, as it requires thorough reading of the protocol specification and very exact behavior.</p>
+  <p><a href="proposal.pdf">Proposal</a>, <a href="milestone.pdf">First Milestone</a></p>
+</body>
+</html>

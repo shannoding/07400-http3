@@ -1,0 +1,325 @@
+No.     Time           Source Destination Protocol Length Info
+      1 0.000000       54990  7443        QUIC     1232   Initial, DCID=7a86f0504afa1e6f0558b4241bd24f89a05c4a67, SCID=b4372ca88d9c6a84004501562fda935ceea7acf2, PKN: 0, CRYPTO, PADDING
+
+Frame 1: 1232 bytes on wire (9856 bits), 1232 bytes captured (9856 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 1200]
+    1... .... = Header Form: Long Header (1)
+    .1.. .... = Fixed Bit: True
+    ..00 .... = Packet Type: Initial (0)
+    .... 00.. = Reserved: 0
+    .... ..00 = Packet Number Length: 1 bytes (0)
+    Version: 1 (0x00000001)
+    Destination Connection ID Length: 20
+    Destination Connection ID: 7a86f0504afa1e6f0558b4241bd24f89a05c4a67
+    Source Connection ID Length: 20
+    Source Connection ID: b4372ca88d9c6a84004501562fda935ceea7acf2
+    Token Length: 0
+    Length: 1148
+    Packet Number: 0
+    Payload: 94ecbd08b8180185aaa789557d1ca974b041864ad3825c1afb4ca8ca4b4efba08941c6cc…
+    CRYPTO
+    PADDING Length: 805
+
+No.     Time           Source Destination Protocol Length Info
+      2 0.001550       7443   54990       QUIC     1284   Handshake, DCID=b4372ca88d9c6a84004501562fda935ceea7acf2, SCID=125dcb57
+
+Frame 2: 1284 bytes on wire (10272 bits), 1284 bytes captured (10272 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 184]
+    1... .... = Header Form: Long Header (1)
+    .1.. .... = Fixed Bit: True
+    ..00 .... = Packet Type: Initial (0)
+    .... 00.. = Reserved: 0
+    .... ..01 = Packet Number Length: 2 bytes (1)
+    Version: 1 (0x00000001)
+    Destination Connection ID Length: 20
+    Destination Connection ID: b4372ca88d9c6a84004501562fda935ceea7acf2
+    Source Connection ID Length: 4
+    Source Connection ID: 125dcb57
+    Token Length: 0
+    Length: 150
+    Packet Number: 0
+    Payload: 688de61ddea6a90c55c5e0d51ead5b69ec3d860b89f77c50afe376c0ddb70c619657b217…
+    ACK
+    CRYPTO
+QUIC IETF
+
+No.     Time           Source Destination Protocol Length Info
+      3 0.001670       7443   54990       QUIC     277    Protected Payload (KP0), DCID=b4372ca88d9c6a84004501562fda935ceea7acf2
+
+Frame 3: 277 bytes on wire (2216 bits), 277 bytes captured (2216 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+QUIC IETF
+
+No.     Time           Source Destination Protocol Length Info
+      4 0.017379       54990  7443        QUIC     1232   Protected Payload (KP0), DCID=125dcb57
+
+Frame 4: 1232 bytes on wire (9856 bits), 1232 bytes captured (9856 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 58]
+    1... .... = Header Form: Long Header (1)
+    .1.. .... = Fixed Bit: True
+    ..00 .... = Packet Type: Initial (0)
+    .... 00.. = Reserved: 0
+    .... ..00 = Packet Number Length: 1 bytes (0)
+    Version: 1 (0x00000001)
+    Destination Connection ID Length: 4
+    Destination Connection ID: 125dcb57
+    Source Connection ID Length: 20
+    Source Connection ID: b4372ca88d9c6a84004501562fda935ceea7acf2
+    Token Length: 0
+    Length: 22
+    Packet Number: 1
+    Payload: cc798b3f57d458bbea5854df965bcc87f8c1bcabba
+    ACK
+QUIC IETF
+QUIC IETF
+    [Packet Length: 1046]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 963ecedde4bdb43ab35c4b04e87fadbed97e3bfac81a020dad0909419eb0c3ab298acb8d…
+
+No.     Time           Source Destination Protocol Length Info
+      5 0.017430       54990  7443        QUIC     1438   Protected Payload (KP0), DCID=125dcb57
+
+Frame 5: 1438 bytes on wire (11504 bits), 1438 bytes captured (11504 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 1406]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 4648ae4e15756bde2ac866fb4b36e512ff55595de76f5c1716d901da54da90477812e614…
+
+No.     Time           Source Destination Protocol Length Info
+      6 0.017912       7443   54990       QUIC     88     Handshake, DCID=b4372ca88d9c6a84004501562fda935ceea7acf2, SCID=125dcb57
+
+Frame 6: 88 bytes on wire (704 bits), 88 bytes captured (704 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+
+No.     Time           Source Destination Protocol Length Info
+      7 0.018097       7443   54990       QUIC     358    Protected Payload (KP0)
+
+Frame 7: 358 bytes on wire (2864 bits), 358 bytes captured (2864 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 326]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441601a20ed01eb44f8b0350d47c66fcc8f…
+
+No.     Time           Source Destination Protocol Length Info
+      8 0.024698       54990  7443        QUIC     98     Protected Payload (KP0), DCID=125dcb57
+
+Frame 8: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 66]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 7d44039dad47f83bc289c178caae4904ccee247f286b035d7150a9f50e1bfc90f6c12855…
+
+No.     Time           Source Destination Protocol Length Info
+      9 0.025480       7443   54990       QUIC     149    Protected Payload (KP0)
+
+Frame 9: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 117]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441be76d0994d53ff66f3c49a890297d9b7…
+
+No.     Time           Source Destination Protocol Length Info
+     10 0.027716       54990  7443        QUIC     1476   Protected Payload (KP0), DCID=125dcb57
+
+Frame 10: 1476 bytes on wire (11808 bits), 1476 bytes captured (11808 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 1444]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 4b89b4433461d734e325ea38f88e79c339e720da918f241b534c08db06e3db97cf999926…
+
+No.     Time           Source Destination Protocol Length Info
+     11 0.027751       54990  7443        QUIC     99     Protected Payload (KP0), DCID=125dcb57
+
+Frame 11: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 67]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: ec5a69df0e2a745235f67bfae128d79b46475dc5e90b0698bd9811db66481bb2aea65db4…
+
+No.     Time           Source Destination Protocol Length Info
+     12 0.027893       7443   54990       QUIC     80     Protected Payload (KP0)
+
+Frame 12: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 48]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441ab1cdf1871d3f0e41b20bc6a2e848b92…
+
+No.     Time           Source Destination Protocol Length Info
+     13 0.036768       54990  7443        QUIC     104    Protected Payload (KP0), DCID=125dcb57
+
+Frame 13: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 72]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 47065beb5364db5e0acde8f6da912dd155c59a3688971045f0516b12c02b4d1e5a9fe8f6…
+
+No.     Time           Source Destination Protocol Length Info
+     14 0.037081       7443   54990       QUIC     149    Protected Payload (KP0)
+
+Frame 14: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 117]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441a41f0780f4b12bd9770c13c39831b7a1…
+
+No.     Time           Source Destination Protocol Length Info
+     15 0.056429       54990  7443        QUIC     60     Protected Payload (KP0), DCID=125dcb57
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 28]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: fc1a8512f68958841f3d5c2b50b5e61137fa50daa805ac
+
+No.     Time           Source Destination Protocol Length Info
+     16 0.056664       7443   54990       QUIC     74     Protected Payload (KP0)
+
+Frame 16: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 42]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441d575bf2752105def722b3322169df102…
+
+No.     Time           Source Destination Protocol Length Info
+     17 0.093130       54990  7443        QUIC     98     Protected Payload (KP0), DCID=125dcb57
+
+Frame 17: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 66]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: dd38fd80ce05f7ede2b7c93654f0b3eac7438215e272edc9e67c9243fe47314527826e24…
+
+No.     Time           Source Destination Protocol Length Info
+     18 0.093497       7443   54990       QUIC     1384   Protected Payload (KP0)
+
+Frame 18: 1384 bytes on wire (11072 bits), 1384 bytes captured (11072 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 1352]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441eb066463bff3a7e1b51bfcb65894f93a…
+
+No.     Time           Source Destination Protocol Length Info
+     19 0.093706       7443   54990       QUIC     149    Protected Payload (KP0)
+
+Frame 19: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 117]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441f741a1071a727213d75608b6e98d670d…
+
+No.     Time           Source Destination Protocol Length Info
+     20 0.106954       54990  7443        QUIC     59     Protected Payload (KP0), DCID=125dcb57
+
+Frame 20: 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 27]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 5a26c087d20e872f19191766d33452983c0e4eebed81
+
+No.     Time           Source Destination Protocol Length Info
+     21 0.107263       7443   54990       QUIC     74     Protected Payload (KP0)
+
+Frame 21: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 7443, Dst Port: 54990
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 42]
+    QUIC Short Header
+    Remaining Payload: b8e5f018022960821e2a25e9b35edaf9cf7ef441690bedf6d16c67aea7bc7ef2f348728a…
+
+No.     Time           Source Destination Protocol Length Info
+     22 0.126438       54990  7443        QUIC     58     Protected Payload (KP0), DCID=125dcb57
+
+Frame 22: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 54990, Dst Port: 7443
+QUIC IETF
+    QUIC Connection information
+    [Packet Length: 26]
+    QUIC Short Header DCID=125dcb57
+    Remaining Payload: 8d56614d843814f4f3b8869c36a3228ff5b54ad0de
